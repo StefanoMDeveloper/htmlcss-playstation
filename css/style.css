@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ms-logo{
+    height: 10px;
+}
+
+.ms-logo-row{
+    height: 20px;
+}
+
+.ms-returnal{
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    min-height: 500px;
+    background-position: center center;
+}
+
+.ms-h-image{
+    height: 25px;
+}
