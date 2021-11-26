@@ -15,10 +15,47 @@
 .ms-returnal{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
-    min-height: 500px;
+    min-height: 550px;
     background-position: center center;
 }
 
 .ms-h-image{
     height: 25px;
+}
+
+.h500{
+    height: 550px;
+}
+
+.active{
+    border: 2px solid #2d64e6;
+}
+
+.ms-rounded{
+    border-radius: 15px;
+}
+
+.ms-upper{
+    transition:0.5s;
+}
+
+.ms-upper:hover{
+    transform: translateY(-20px);
+
+}
+
+.ms-z-index{
+    z-index: 9999;
+}
+
+
+.ms-it-takes-two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    min-height: 550px;
+    background-position: center center;
+}
+
+.ms-it-takes-two-logo{
+    width: 200px;
 }
