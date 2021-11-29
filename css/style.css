@@ -4,13 +4,112 @@
     box-sizing: border-box;
 }
 
-.ms-logo{
-    height: 10px;
+a{
+    text-decoration: none;
 }
 
-.ms-logo-row{
-    height: 20px;
+.ms-pointer{
+    cursor: pointer;
 }
+
+.ms-logo{
+    height: 30px;
+}
+
+.ms-logo img{
+    min-width: 70px;
+    max-width: 70px;
+}
+
+img[src*="img/chevron-"]{
+    width: 12px;
+    margin: 0 5px;
+}
+
+.search img{
+    height: 25px;
+}
+
+.nav-link:hover span{
+    color: #0070d1!important;
+}
+
+.nav-link:hover img[src*="-solid"]{
+    display: none !important;
+}
+
+.nav-link:hover img[src*="-hover"]{
+    display: inline-block !important;
+}
+
+.nav-link.show span{
+    color: #0070d1;
+}
+
+.nav-link.show img[src*="-solid"]{
+    display: none !important;
+}
+
+.nav-link.show img[src*="-hover"]{
+    transform: rotate(180deg);
+    display: inline-block !important;
+}
+
+.playstation-menu-icon img{
+    height: 85px;
+}
+
+.playstation5-icon:hover{
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.3)
+}
+
+/* bottoni */
+.accedi-btn{
+    background-color: #363636;
+    border: 4px solid #363636;
+}
+
+.acquista-btn{
+    background-color: #cd3d0f;
+    border: 4px solid #cd3d0f; 
+}
+
+ .informazioni-btn{
+    background-color: #0070d1;
+    border: 4px solid #0070d1; 
+ }
+
+.plus-btn, .now-btn{
+    background-color: #d9dadc;
+}
+
+.plus-btn:hover{
+    box-shadow: 0 0 0 2px lightgray;
+}
+
+.now-btn{
+    border: 2px solid #d9dadc;
+}
+
+.now-btn:hover{
+    box-shadow: inset 0 0 0 2px #161c3b!important;
+}
+
+.ms-btn:hover{
+    box-shadow: inset 0 0 0 2px white;
+}
+
+.ms-btn{
+    padding: 5px 15px;
+}
+
+.ms-btn:hover {
+    transition: .5s ease-in-out;
+}
+/* ///bottoni */
+
+
+
 
 .ms-returnal{
     background-image: url(../img/jumbo-bg.png);
@@ -58,4 +157,50 @@
 
 .ms-it-takes-two-logo{
     width: 200px;
+}
+
+.ms-opacity{
+    filter: opacity(50%);
+    min-height: 180px;      
+}
+
+.ms-opacity:hover{
+    border-bottom: 2px solid #0070d1;
+    filter: none;
+    transition: ease-in-out 0.2s;
+}
+
+.ms-border{
+    border-bottom: 2px solid #0070d1;
+}
+
+
+.ms-bg-playstationplus{
+    background-color: #bebcbb;
+}
+
+.ms-bg-playstationnow{
+    background-color: #161c3b;
+}
+
+.ms-visible-md{
+    display: none;
+}
+
+@media  screen and (min-width: 768px) {
+    .ms-visible-md{
+        display: inline-block;
+    }
+}
+
+.h100{
+    height: 80px;
+}
+
+.footer-bg-color{
+    background-color: #00439c;
+}
+
+footer ul{
+    list-style-type: none;
 }
